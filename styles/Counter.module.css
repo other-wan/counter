@@ -3,6 +3,11 @@
   margin-bottom: 32px;
 }
 
+.home > p {
+  margin-bottom: 32px;
+  font-size: 20px !important;
+}
+
 .home p {
   font-size: 2rem;
   font-weight: 400;
