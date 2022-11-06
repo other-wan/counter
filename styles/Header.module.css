@@ -1,0 +1,29 @@
+.layout {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding-block: 20px;
+}
+
+.header > a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_link.nav_active {
+  color: tomato;
+}
